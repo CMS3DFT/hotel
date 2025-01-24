@@ -1,0 +1,101 @@
+body{
+    background-image: url(img/backgroun.jpg);
+}
+.head{
+    display: flex;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    gap: 400px;
+}
+.head img{
+    width: 100px;
+    margin-left: 30px;
+}
+ul{
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.boton{
+    width: 230px;
+    height: 50px;
+    background-color: lightslategray;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.main{
+    justify-content: center;
+    display: flex;
+    margin-top: 220px;
+}
+.mai{
+    width: 600px;
+    height: 500px;
+    background:transparent;
+    backdrop-filter: blur(40px);
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgb(0,0,0,.5);
+}
+input{
+    width: 360px;
+    height: 40px;
+    margin: 40px;
+    margin-left: 90px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+}
+::placeholder{
+    text-align: center;
+    color: black;
+}
+.input{
+    margin-top: -10px;
+} 
+.information{
+    margin-left: 20px;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.information a{
+    color: white;
+}
+.icon a{
+    text-decoration: none;
+
+}
+.bo{
+    width: 430px;
+    height: 50px;
+    background-color: lightblue;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-left: 70px;
+}
+.bo a{
+    text-decoration: none;
+}
+
+@media(min-width:768px){
+    .icones,.isbro{
+        display: none;
+
+    }
+}
+@media(max-width:768px){
+    .information,.main{
+        flex-direction: column;
+    }
+}
