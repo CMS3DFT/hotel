@@ -52,10 +52,31 @@ span{
     gap: 40px ;
     color: white;
 }
-@media(max-width:768px){
-    .head{
-    height: 100px;
+.bot{
+    width: 230px;
+    height: 50px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-left: 70px;
 
-    
+}
+.bot a{
+    text-decoration: none;
+
+}
+@media(min-width:768px){
+    .bot{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .head,.ul{
+    height: 100px;
+    }
+    .ul{
+        margin-left: -10px;
     }
 }

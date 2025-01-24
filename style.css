@@ -89,7 +89,7 @@ input{
 }
 
 @media(min-width:768px){
-    .icones,.isbro{
+    .icones{
         display: none;
 
     }
